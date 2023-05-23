@@ -1,4 +1,4 @@
-var firstName = "Megan";
+ var firstName = "Megan";
 let surname = "Beyl";
 let age = 19;
 const subject = "Development";
@@ -23,6 +23,12 @@ let timmy = 10;
 let susan = 25;
 let timmyTax = 15/100;
 let susanTax = 26/100;
+
+timmyTax=10*0.15
+susanTax = 25 * 0.26
+
+totalTax = timmyTax + susanTax
+console.log("total Tax:" + totalTax)
 
 let tValue = 1.5;
 let sValue = 6.5;
